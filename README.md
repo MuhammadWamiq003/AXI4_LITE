@@ -92,10 +92,7 @@ AXI4_LITE/
 │   │   ├── S_AXI4_Lite.sv    # AXI4-Lite Slave
 │   ├── sim_1/             # Testbenches
 │   │   ├── AXI4_Lite_top_tb.sv
-│── sim/                   # Simulation files
-│── docs/                  # Documentation
 │── README.md              # Project documentation
-│── .gitignore             # Git ignore file
 ```
 
 ### ✅ **How to Run the Simulation**  
