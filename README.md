@@ -92,8 +92,24 @@ AXI4_LITE/
 │   │   ├── S_AXI4_Lite.sv    # AXI4-Lite Slave
 │   ├── sim_1/             # Testbenches
 │   │   ├── AXI4_Lite_top_tb.sv
+├── images/
+│   ├── AXI4_Lite Block Diagram.jpg
+│   ├── AXI4_Lite State Diagram.jpg
 │── README.md              # Project documentation
 ```
+
+
+## 🏗️ AXI4-Lite Block Diagram  
+The block diagram below illustrates the architecture of the **AXI4-Lite Master and Slave** design.  
+
+![Block Diagram](images/AXI4_Lite Block Diagram.jpg)
+
+## 🔄 State Machine Diagram  
+The AXI4-Lite protocol is implemented using a **Finite State Machine (FSM)** to manage read and write transactions.  
+
+![State Machine Diagram](images/AXI4_Lite State Diagram.jpg)
+
+---
 
 ### ✅ **How to Run the Simulation**  
 1. Clone the repository:  
