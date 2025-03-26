@@ -78,13 +78,13 @@ This repository contains an **AXI4-Lite Master and Slave implementation using Ve
 ### 📂 **Project Structure**  
 ```
 AXI4_LITE/
-│── srcs/                  # Source files
-│   ├── sources_1/         # HDL sources
-│   │   ├── AXI4_Lite_top.sv  # Top module
-│   │   ├── M_AXI4_Lite.sv    # AXI4-Lite Master
-│   │   ├── S_AXI4_Lite.sv    # AXI4-Lite Slave
-│   ├── sim_1/             # Testbenches
-│   │   ├── AXI4_Lite_top_tb.sv
+│── AXI4_Lite_WSM.srcs/              # Source files
+│   ├── sources_1/new/                 # HDL sources
+│   │   ├── AXI4_Lite_top.sv           # Top module
+│   │   ├── M_AXI4_Lite.sv             # AXI4-Lite Master
+│   │   ├── S_AXI4_Lite.sv             # AXI4-Lite Slave
+│   ├── sim_1/new/                   # Testbenches
+│   │   ├── AXI4_Lite_top_tb.sv        # Top module TB 
 ├── images/
 │   ├── AXI4_Lite Block Diagram.jpg
 │   ├── AXI4_Lite State Diagram.jpg
