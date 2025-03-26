@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../AXI4_Lite_WSM.srcs/sources_1/new/AXI4_Lite_top.sv" \
+"../../../../AXI4_Lite_WSM.srcs/sources_1/new/M_AXI4_Lite.sv" \
+"../../../../AXI4_Lite_WSM.srcs/sources_1/new/S_AXI4_Lite.sv" \
+"../../../../AXI4_Lite_WSM.srcs/sim_1/new/AXI4_Lite_top_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
