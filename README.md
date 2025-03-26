@@ -37,23 +37,10 @@ There are **five** channels in AXI4-Lite communication:
 
 Each channel has a **valid-ready handshake mechanism** to synchronize communication.  
 
-### **Write Transaction (Master → Slave)**  
-| Signal | Description |  
-|---------|------------|  
-| `AWVALID` | Master requests to write an address |  
-| `AWREADY` | Slave acknowledges the address |  
-| `WVALID` | Master sends write data |  
-| `WREADY` | Slave is ready to receive data |  
-| `BVALID` | Slave sends write response |  
-| `BREADY` | Master acknowledges write completion |  
+## 🏗️ AXI4-Lite Block Diagram  
+The block diagram below illustrates the architecture of the **AXI4-Lite Master and Slave** design.  
 
-### **Read Transaction (Master ← Slave)**  
-| Signal | Description |  
-|---------|------------|  
-| `ARVALID` | Master requests to read an address |  
-| `ARREADY` | Slave acknowledges the request |  
-| `RVALID` | Slave sends read data |  
-| `RREADY` | Master acknowledges data reception |  
+<img src="https://github.com/MuhammadWamiq003/AXI4_LITE/blob/master/images/AXI4_Lite%20Block%20Diagram.jpg">
 
 ---
 
@@ -77,9 +64,15 @@ A state machine helps:
 2. **READ_DATA** → Wait for `RVALID & RREADY`  
 3. **IDLE** → Transaction complete  
 
+
+## 🔄 State Machine Diagram  
+The AXI4-Lite protocol is implemented using a **Finite State Machine (FSM)** to manage read and write transactions.  
+
+<img src="https://github.com/MuhammadWamiq003/AXI4_LITE/blob/master/images/AXI4_Lite%20State%20Diagram.jpg">
+
 ---
 
-## ⚙️ **Implementation in Verilog/SystemVerilog**  
+## ⚙️ **Implementation in SystemVerilog**  
 This repository contains an **AXI4-Lite Master and Slave implementation using Verilog/SystemVerilog**.  
 
 ### 📂 **Project Structure**  
@@ -97,18 +90,6 @@ AXI4_LITE/
 │   ├── AXI4_Lite State Diagram.jpg
 │── README.md              # Project documentation
 ```
-
-
-## 🏗️ AXI4-Lite Block Diagram  
-The block diagram below illustrates the architecture of the **AXI4-Lite Master and Slave** design.  
-
-<img src="https://github.com/MuhammadWamiq003/AXI4_LITE/blob/master/images/AXI4_Lite%20Block%20Diagram.jpg">
-
-## 🔄 State Machine Diagram  
-The AXI4-Lite protocol is implemented using a **Finite State Machine (FSM)** to manage read and write transactions.  
-
-![State Machine Diagram](images/AXI4_Lite State Diagram.jpg)
-
 ---
 
 ### ✅ **How to Run the Simulation**  
