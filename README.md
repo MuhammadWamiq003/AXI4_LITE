@@ -102,7 +102,7 @@ AXI4_LITE/
 ## 🏗️ AXI4-Lite Block Diagram  
 The block diagram below illustrates the architecture of the **AXI4-Lite Master and Slave** design.  
 
-![Block Diagram](images/AXI4_Lite Block Diagram.jpg)
+<img src="https://github.com/MuhammadWamiq003/AXI4_LITE/blob/master/images/AXI4_Lite%20Block%20Diagram.jpg">
 
 ## 🔄 State Machine Diagram  
 The AXI4-Lite protocol is implemented using a **Finite State Machine (FSM)** to manage read and write transactions.  
