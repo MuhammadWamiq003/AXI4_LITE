@@ -1,9 +1,0 @@
-0.6
-2018.2
-Jun 14 2018
-20:41:02
-F:/FYP/AXI4_Lite_WSM/AXI4_Lite_WSM.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
-F:/FYP/AXI4_Lite_WSM/AXI4_Lite_WSM.srcs/sim_1/new/AXI4_Lite_top_tb.sv,1742903045,systemVerilog,,,,AXI4_Lite_top_tb,,,,,,,,
-F:/FYP/AXI4_Lite_WSM/AXI4_Lite_WSM.srcs/sources_1/new/AXI4_Lite_top.sv,1742902655,systemVerilog,,F:/FYP/AXI4_Lite_WSM/AXI4_Lite_WSM.srcs/sources_1/new/M_AXI4_Lite.sv,,AXI4_Lite_top,,,,,,,,
-F:/FYP/AXI4_Lite_WSM/AXI4_Lite_WSM.srcs/sources_1/new/M_AXI4_Lite.sv,1742904195,systemVerilog,,F:/FYP/AXI4_Lite_WSM/AXI4_Lite_WSM.srcs/sources_1/new/S_AXI4_Lite.sv,,M_AXI4_Lite,,,,,,,,
-F:/FYP/AXI4_Lite_WSM/AXI4_Lite_WSM.srcs/sources_1/new/S_AXI4_Lite.sv,1742907303,systemVerilog,,F:/FYP/AXI4_Lite_WSM/AXI4_Lite_WSM.srcs/sim_1/new/AXI4_Lite_top_tb.sv,,S_AXI4_Lite,,,,,,,,
